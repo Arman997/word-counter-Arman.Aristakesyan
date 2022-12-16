@@ -28,7 +28,7 @@ function sentenceCounter() {
     return elem !== " " && elem !== "";
   });
 
-  return arr2.length;
+   return arr2.length;
 }
 
 textArea.addEventListener("keyup", () => {
